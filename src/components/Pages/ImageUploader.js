@@ -23,7 +23,7 @@ class ImageUploader extends React.Component {
     	<div class="">
     		<input type="file" onChange={this.fileSelectedHandler}/>
     		<button onClick={this.fileUploadHandler} className="ui button primary">Upload</button>
-    		
+    		Hello I have changed
     	</div>
   	);
   }
